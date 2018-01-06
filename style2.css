@@ -1,0 +1,47 @@
+.area{
+   transform: translateX(50%);
+   width: 40%;
+   margin-top: 40px;
+   box-sizing: border-box;
+   
+
+}
+.cursor{
+    position: absolute;
+    background-color: #000;
+    width: 2px;
+    height: 30px;
+    margin: -20px auto 0 0;
+    animation-name: blink;
+    animation-timing-function: ease-in;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    z-index: 2;
+    bottom: -3px;  
+}
+@keyframes blink {
+    0%{
+        opacity: 0;
+    }
+   50%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.btn1{
+    
+    
+    font: 5.5em;
+    z-index: 1;
+}
+
+
+body{
+    overflow: hidden;
+}
