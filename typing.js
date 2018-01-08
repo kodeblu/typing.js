@@ -110,12 +110,13 @@ var typing = (function(){
 
         start.prototype = typing.prototype;
 
-        window.t = typing;
+        window.t = window.type = window.write = typing;
 
     
     
 })();
-//t(".test",{words:"testing first stage of good and neat coding, hope this works; so exited and scared at the same time"})
+
+   //type(".test",{words:"testing first stage of good and neat coding, hope this works; so exited and scared at the same time"})
 //var typing = new typing();
 
   // typing.start('.test',{words:"okay, this is me testing my own library; so far no bug yet"});
