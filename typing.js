@@ -115,7 +115,7 @@ var typing = (function(){
     
     
 })();
-t(".test",{words:"testing first stage of good and neat coding, hope this works; so exited and scared at the same time"})
+//t(".test",{words:"testing first stage of good and neat coding, hope this works; so exited and scared at the same time"})
 //var typing = new typing();
 
   // typing.start('.test',{words:"okay, this is me testing my own library; so far no bug yet"});
